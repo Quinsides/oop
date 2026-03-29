@@ -23,7 +23,11 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     qt_add_executable(labs_oop
         MANUAL_FINALIZATION
         ${PROJECT_SOURCES}
-        book.h book.cpp
+        book.h
+        csvreader.h csvreader.cpp
+        searcher.h searcher.cpp
+        csvwriter.h csvwriter.cpp
+
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET labs_oop APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

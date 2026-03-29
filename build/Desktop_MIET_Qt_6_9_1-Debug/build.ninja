@@ -76,10 +76,28 @@ build CMakeFiles/labs_oop.dir/mainwindow.cpp.obj: CXX_COMPILER__labs_oop_unscann
   OBJECT_DIR = CMakeFiles\labs_oop.dir
   OBJECT_FILE_DIR = CMakeFiles\labs_oop.dir
 
-build CMakeFiles/labs_oop.dir/book.cpp.obj: CXX_COMPILER__labs_oop_unscanned_Debug C$:/Users/Kiril/Desktop/labs_oop/book.cpp || cmake_object_order_depends_target_labs_oop
+build CMakeFiles/labs_oop.dir/csvreader.cpp.obj: CXX_COMPILER__labs_oop_unscanned_Debug C$:/Users/Kiril/Desktop/labs_oop/csvreader.cpp || cmake_object_order_depends_target_labs_oop
   CONFIG = Debug
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
-  DEP_FILE = CMakeFiles\labs_oop.dir\book.cpp.obj.d
+  DEP_FILE = CMakeFiles\labs_oop.dir\csvreader.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Kiril/Desktop/labs_oop/build/Desktop_MIET_Qt_6_9_1-Debug/labs_oop_autogen/include -isystem C:/Qt/6.9.1/mingw151_64/include/QtCore -isystem C:/Qt/6.9.1/mingw151_64/include -isystem C:/Qt/6.9.1/mingw151_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw151_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw151_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\labs_oop.dir
+  OBJECT_FILE_DIR = CMakeFiles\labs_oop.dir
+
+build CMakeFiles/labs_oop.dir/searcher.cpp.obj: CXX_COMPILER__labs_oop_unscanned_Debug C$:/Users/Kiril/Desktop/labs_oop/searcher.cpp || cmake_object_order_depends_target_labs_oop
+  CONFIG = Debug
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
+  DEP_FILE = CMakeFiles\labs_oop.dir\searcher.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Kiril/Desktop/labs_oop/build/Desktop_MIET_Qt_6_9_1-Debug/labs_oop_autogen/include -isystem C:/Qt/6.9.1/mingw151_64/include/QtCore -isystem C:/Qt/6.9.1/mingw151_64/include -isystem C:/Qt/6.9.1/mingw151_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw151_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw151_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\labs_oop.dir
+  OBJECT_FILE_DIR = CMakeFiles\labs_oop.dir
+
+build CMakeFiles/labs_oop.dir/csvwriter.cpp.obj: CXX_COMPILER__labs_oop_unscanned_Debug C$:/Users/Kiril/Desktop/labs_oop/csvwriter.cpp || cmake_object_order_depends_target_labs_oop
+  CONFIG = Debug
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -DWINVER=0x0A00 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN32_WINNT=0x0A00 -D_WIN64
+  DEP_FILE = CMakeFiles\labs_oop.dir\csvwriter.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
   INCLUDES = -IC:/Users/Kiril/Desktop/labs_oop/build/Desktop_MIET_Qt_6_9_1-Debug/labs_oop_autogen/include -isystem C:/Qt/6.9.1/mingw151_64/include/QtCore -isystem C:/Qt/6.9.1/mingw151_64/include -isystem C:/Qt/6.9.1/mingw151_64/mkspecs/win32-g++ -isystem C:/Qt/6.9.1/mingw151_64/include/QtWidgets -isystem C:/Qt/6.9.1/mingw151_64/include/QtGui
   OBJECT_DIR = CMakeFiles\labs_oop.dir
@@ -93,7 +111,7 @@ build CMakeFiles/labs_oop.dir/book.cpp.obj: CXX_COMPILER__labs_oop_unscanned_Deb
 #############################################
 # Link the executable labs_oop.exe
 
-build labs_oop.exe: CXX_EXECUTABLE_LINKER__labs_oop_Debug CMakeFiles/labs_oop.dir/labs_oop_autogen/mocs_compilation.cpp.obj CMakeFiles/labs_oop.dir/main.cpp.obj CMakeFiles/labs_oop.dir/mainwindow.cpp.obj CMakeFiles/labs_oop.dir/book.cpp.obj | C$:/Qt/6.9.1/mingw151_64/lib/libQt6Widgets.a C$:/Qt/6.9.1/mingw151_64/lib/libQt6Gui.a C$:/Qt/6.9.1/mingw151_64/lib/libQt6Core.a C$:/Qt/6.9.1/mingw151_64/lib/libQt6EntryPoint.a || labs_oop_autogen labs_oop_autogen_timestamp_deps
+build labs_oop.exe: CXX_EXECUTABLE_LINKER__labs_oop_Debug CMakeFiles/labs_oop.dir/labs_oop_autogen/mocs_compilation.cpp.obj CMakeFiles/labs_oop.dir/main.cpp.obj CMakeFiles/labs_oop.dir/mainwindow.cpp.obj CMakeFiles/labs_oop.dir/csvreader.cpp.obj CMakeFiles/labs_oop.dir/searcher.cpp.obj CMakeFiles/labs_oop.dir/csvwriter.cpp.obj | C$:/Qt/6.9.1/mingw151_64/lib/libQt6Widgets.a C$:/Qt/6.9.1/mingw151_64/lib/libQt6Gui.a C$:/Qt/6.9.1/mingw151_64/lib/libQt6Core.a C$:/Qt/6.9.1/mingw151_64/lib/libQt6EntryPoint.a || labs_oop_autogen labs_oop_autogen_timestamp_deps
   CONFIG = Debug
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows

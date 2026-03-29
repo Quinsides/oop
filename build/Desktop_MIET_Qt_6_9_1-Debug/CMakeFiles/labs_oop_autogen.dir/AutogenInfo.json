@@ -357,9 +357,27 @@
 			null
 		],
 		[
+			"C:/Users/Kiril/Desktop/labs_oop/csvreader.h",
+			"MU",
+			"EWIEGA46WW/moc_csvreader.cpp",
+			null
+		],
+		[
+			"C:/Users/Kiril/Desktop/labs_oop/csvwriter.h",
+			"MU",
+			"EWIEGA46WW/moc_csvwriter.cpp",
+			null
+		],
+		[
 			"C:/Users/Kiril/Desktop/labs_oop/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"C:/Users/Kiril/Desktop/labs_oop/searcher.h",
+			"MU",
+			"EWIEGA46WW/moc_searcher.cpp",
 			null
 		]
 	],
@@ -436,9 +454,11 @@
 	"SETTINGS_FILE" : "C:/Users/Kiril/Desktop/labs_oop/build/Desktop_MIET_Qt_6_9_1-Debug/CMakeFiles/labs_oop_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "C:/Users/Kiril/Desktop/labs_oop/book.cpp", "MU", null ],
+		[ "C:/Users/Kiril/Desktop/labs_oop/csvreader.cpp", "MU", null ],
+		[ "C:/Users/Kiril/Desktop/labs_oop/csvwriter.cpp", "MU", null ],
 		[ "C:/Users/Kiril/Desktop/labs_oop/main.cpp", "MU", null ],
-		[ "C:/Users/Kiril/Desktop/labs_oop/mainwindow.cpp", "MU", null ]
+		[ "C:/Users/Kiril/Desktop/labs_oop/mainwindow.cpp", "MU", null ],
+		[ "C:/Users/Kiril/Desktop/labs_oop/searcher.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

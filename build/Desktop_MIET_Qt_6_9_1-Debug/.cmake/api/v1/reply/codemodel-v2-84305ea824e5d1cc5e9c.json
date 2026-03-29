@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-91a8aec9fa914b81c6c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "labs_oop",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "labs_oop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-labs_oop-Debug-1ba2fb3348bb834d4fa8.json",
+					"name" : "labs_oop",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "labs_oop_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-labs_oop_autogen-Debug-31f20bbf7529e982d040.json",
+					"name" : "labs_oop_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "labs_oop_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-labs_oop_autogen_timestamp_deps-Debug-679f24536168af46b7f1.json",
+					"name" : "labs_oop_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Kiril/Desktop/labs_oop/build/Desktop_MIET_Qt_6_9_1-Debug",
+		"source" : "C:/Users/Kiril/Desktop/labs_oop"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
